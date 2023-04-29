@@ -1,0 +1,9 @@
+CREATE DATABASE CourseDB;
+
+USE CourseDB;
+
+CREATE TABLE Subject(
+    SubjCode VARCHAR(10) PRIMARY KEY,
+    SubjName VARCHAR(255) NOT NULL,
+    Units FLOAT
+);
